@@ -15,6 +15,9 @@
     ,url("media/albahaca.jpg");
 
 }
+#nuestras-plantas p{
+    display: block;
+}
 @media (min-width: 850px){
     #nuestras-plantas .ficha{
         padding: 50px;

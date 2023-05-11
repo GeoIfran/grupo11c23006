@@ -1,31 +1,26 @@
 #nuestras-plantas .ficha{
     background-position: center center;
     background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px;
+    padding: 5em 0px;
+    margin: 3em;
+    border-radius: 1.5em;
 }
 
-.ficha:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/albahaca.jpg");
-
-}
 #nuestras-plantas p{
     display: block;
 }
 @media (min-width: 850px){
+    html{
+        font-size: 15px;
+    }
     #nuestras-plantas .ficha{
         padding: 50px;
-        background-size: 100% 150px;
+        background-size: 100% 10em;
         background-repeat: no-repeat;
         background-position-y: 0;
-        background-color: rgba(50, 50, 50, 1);
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+     
+   background-color: rgba(50, 50, 50, 1);
+        box-shadow: 0.2em 0.2em 1em rgba(0,0,0,0.5);
     }
 
     .ficha:first-child{
@@ -37,4 +32,111 @@
         ,url("media/albahaca_croped.jpg");
 
     }
+    #encabezado_ficha {
+        display: block;
+        height: 10em;
+    }
+    #encabezado_ficha h2 {
+        height: 10em;
+        margin: 0%;
+        padding: 0%;
+        vertical-align: middle;
+    }
+    #nuestras-plantas .container{
+        padding: 15px 12px;
+    }
+    #imagen_principal_articulo{
+        
+        width: 35%;
+        text-align: center;
+        display: block;
+    }
+    #imagen_principal_articulo img {
+        width: 100%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    #imagen_principal_articulo p{
+        
+        padding: 0.2em;
+        margin: 0.1em;
+        text-align: center;
+    }
+    h4{
+        padding: 0px;
+        margin: 0px;
+    }
+    .nomenclatura_ficha p {
+        padding: 0px;
+        margin: 0px;
+    }
+    .nomenclatura_ficha {
+        background-color: rgba(248, 245, 245, 0.865);
+        text-align: left;
+        padding-left: 1em;
+        vertical-align: middle;
+        align-content: baseline;
+        display: grid;
+        grid-template-columns: repeat(2) minmax(280, 1fr);
+        grid-gap: 10px;
+        
+
+    }
+    .tit_nom_vul{
+        
+        background-color: rgba(232, 239, 238, 0.5);
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .nombre_vulgar{
+        background-color: rgba(78, 56, 198, 0.5);
+        
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .tit_nom_cie{
+        background-color: rgba(236, 81, 200, 0.5);
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .nombre_cientifico{
+        background-color: rgba(237, 106, 111, 0.5);
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .tit_indent{
+        background-color: rgba(232, 239, 234, 0.5);
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .identificacion{
+        background-color: rgba(232, 232, 68, 0.5);
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .tit_for_bio{background-color: rgba(146, 19, 57, 0.5);
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .forma_biologica{
+        background-color: rgba(7, 21, 221, 0.5);
+        grid-column: 2;
+        grid-row: 4;
+    }
+    .tit_flora{
+        grid-column: 1;
+        grid-row: 5;
+        background-color: rgba(243, 49, 49, 0.5);
+    }
+    .floracion{
+        background-color: rgba(117, 120, 14, 0.5);;
+        grid-column: 2;
+        grid-row: 5;
+    }
+    .imagen_articulo{
+        background-color: rgba(140, 16, 168, 0.5);
+    grid-column: 3;
+    grid-row: 1 / 6;
+    }
 }
+

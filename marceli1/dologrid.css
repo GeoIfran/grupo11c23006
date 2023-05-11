@@ -1,0 +1,51 @@
+.nomenclatura_ficha {
+    display: grid;
+    grid-template-columns: repeat(3) 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+.tit_nom_vul{
+    grid-column: 1;
+    grid-row: 1;
+}
+.nombre_vulgar{
+    grid-column: 2;
+    grid-row: 1;
+}
+.tit_nom_cie{
+    grid-column: 1;
+    grid-row: 2;
+}
+.nombre_cientifico{
+    grid-column: 2;
+    grid-row: 2;
+}
+.tit_indent{
+    grid-column: 1;
+    grid-row: 3;
+}
+.identificacion{
+    grid-column: 2;
+    grid-row: 3;
+}
+.tit_for_bio{
+    grid-column: 1;
+    grid-row: 4;
+}
+.forma_biologica{
+    grid-column: 2;
+    grid-row: 4;
+}
+.tit_flora{
+    grid-column: 1;
+    grid-row: 5;
+}
+.floracion{
+    grid-column: 1;
+    grid-row: 5;
+}
+.imagen_articulo{
+grid-column: 3;
+grid-row: 1 / 6;
+}

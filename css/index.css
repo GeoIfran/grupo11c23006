@@ -45,7 +45,14 @@ header .logo{
     padding: 25px 30px;
     font-weight: bold;
     color: blueviolet;
-    font-size: 1.6em;
+    font-size: 2em;
+    vertical-align: middle;
+
+}
+header .logo img{
+    max-height: 1.5em;
+    width: auto;
+    vertical-align: middle;
 }
 
 header .container{
@@ -84,7 +91,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/plantafondo.jpg");
+    ,url("../media/plantafondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -139,7 +146,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/girasol.jpg");
+    ,url("../media/girasol.jpg");
 
 }
 
@@ -149,7 +156,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/albahaca.jpg");
+    ,url("../media/albahaca.jpg");
 }
 
 .carta:nth-child(3){
@@ -158,7 +165,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("../media/python.jpg");
 
 }
 
@@ -249,7 +256,7 @@ footer .container{
     }
 
     #manos .img-container{
-        background-image: url("media/manos.jpg");
+        background-image: url("../media/manos.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -290,7 +297,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/girasol_croped.jpg");
+        ,url("../media/girasol_croped.jpg");
 
     }
     
@@ -301,7 +308,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/albahaca_croped.jpg");
+        ,url("../media/albahaca_croped.jpg");
     }
 
     .carta:nth-child(3){
@@ -310,12 +317,12 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("../media/python-cropped.jpg");
 
     }
 
     #caracteristicas{
-        background-image: url("media/background-2.jpeg");
+        background-image: url("../media/background-2.jpeg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;

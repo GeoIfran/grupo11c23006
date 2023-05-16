@@ -37,6 +37,7 @@ button:hover{
 
 header{
     background-color: rgb(245,245,245);
+    z-index: 1;
     
 }
 
@@ -84,7 +85,7 @@ header a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
+    flex-direction: column; 
     height: 90vh;
     background-image: linear-gradient(
         0deg,
@@ -100,6 +101,10 @@ header a:hover{
 
 #plantafondo h1{
     color: white;
+    text-shadow: 3px 3px #000;
+    position: absolute;
+    top: 1em;
+    display: flex;
 }
 
 
@@ -355,9 +360,11 @@ footer .container{
     }
 }
 .slider {
-    width: 95%;
+    
+    width: 100%;
     margin: auto;
     overflow: hidden;
+    position: inherit;
   }
   
   .slider ul{

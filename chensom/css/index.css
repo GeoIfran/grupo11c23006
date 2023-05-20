@@ -83,6 +83,8 @@ header a:hover {
 
 #plantafondo {
     display: flex;
+    width: auto;
+    height:590px;
     align-items: center;
     justify-content: center;
     text-align: center;

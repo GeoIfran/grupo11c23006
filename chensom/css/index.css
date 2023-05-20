@@ -230,6 +230,7 @@ footer .container{
     header .container{
         flex-direction: row;
         justify-content: space-between;
+        height: 10vh;
     }
 
     header nav{

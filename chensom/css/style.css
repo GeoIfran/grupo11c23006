@@ -4,16 +4,17 @@
   body {
     margin: 0;
     font-family: sans-serif;
+    
   }
   .formulario {
-    width: 400px;
+    width: 450px;
     max-width: 90%;
     margin: auto;
     margin-top: 30px;
     padding: 20px;
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
     position: relative;
-    height: 90vh;
+    height: 80vh;
   }
   .formulario__titulo {
     text-align: center;
@@ -23,10 +24,10 @@
   .formulario__input, .formulario__label, .formulario__submit {
     display: block;
     width: 100%;
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   .formulario__input {
-    padding: 20px;
+    padding: 15px;
     background: rgba(0,0,0,0.1);
     border: 1px solid rgba(0,0,0,0.3);
     margin-bottom: 40px;
@@ -35,7 +36,7 @@
     outline: 1px solid rgba(0,0,0,0.7);
   }
   .formulario__input:focus + .formulario__label{
-    margin-top: -135px;
+    margin-top: -115px;
   }
   .formulario__label {
     padding-left: 15px;
@@ -58,8 +59,8 @@
 
  .contenedor-ico i {
   font-size: 30px;
-  color: rgb(13, 191, 60);
-  opacity: 0.9;
+  color: rgb(207, 230, 213);
+  opacity: 1.5;
   }
 .link { 
   color: #d0ff00; 

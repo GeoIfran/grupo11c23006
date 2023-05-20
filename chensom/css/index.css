@@ -66,11 +66,11 @@ header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 header a{
-    padding: 5px 12px;
+    padding: 3px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -86,7 +86,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column; 
-    height: 90vh;
+    height: 95vh;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -103,8 +103,9 @@ header a:hover{
     color: white;
     text-shadow: 3px 3px #000;
     position: absolute;
-    top: 1em;
+    top: 2em;
     display: flex;
+   
 }
 
 
@@ -115,7 +116,7 @@ header a:hover{
 
 #manos .container{
     text-align: center;
-    padding: 200px 12px;
+    padding: 60px 15px;
 }
 
 #nuestras-plantas{
@@ -125,7 +126,7 @@ header a:hover{
 }
 
 #nuestras-plantas .container{
-    padding: 150px 12px;
+    padding: 140px 12px;
 }
 
 #nuestras-plantas h2{
@@ -214,7 +215,7 @@ footer p{
 }
 
 footer .container{
-    height: 150px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -339,7 +340,7 @@ footer .container{
     }
 
     #caracteristicas ul{
-        margin-left: 100px;
+        margin-left: 130px;
     }
 
     #final h2{

@@ -247,10 +247,11 @@ footer .container{
     }
 
     #manos .texto{
-        width: 50%;
+        width: 60%;
+        font-size: 15px;
         max-width: 600px;
         text-align: initial;
-        padding-left: 30px;
+        padding-left: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/general.css"> 
     <link rel="stylesheet" href="css/index.css"> 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@next/font/bootstrap-icons.css">
     
     <title>Herbario</title>
 
@@ -92,12 +92,24 @@
 
     <section id="caracteristicas">
         <div class="container">
-            <ul>
-                <li>✔️ 100% online</li>
-                <li>✔️ Flexibilidad de horarios</li>
-                <li>✔️ Soporte 1:1</li>
-                <li>✔️ Asistencia financiera</li>
-            </ul>
+            <form action="" class="formulario">
+                <h1 class="formulario__titulo">Contáctenos</h1><br>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Nombre y Apellido</label>
+                <input type="text" class="formulario__input">
+                <label for="" type="Correo" class="formulario__label">Correo</label>
+                <input type="text" type="number" class="formulario__input">
+                <label for="" class="formulario__label">Teléfono</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Mensaje</label>
+                <input type="submit" class="formulario__submit">
+            </form>
+            <div class="wsp1">
+                <a class="wsp" href="https://wa.me/5491169403011/?text=Hola%20Herbario%20les%20quiero%20consultar"
+                    target="_blank">
+                    <img src="media/logo.png" width="50" height="50">
+                </a>
+            </div>
         </div>
     </section>
 
@@ -110,9 +122,10 @@
         <div class="container">
             <p>&copy; Herbario 2023</p>
         </div>
-        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        
 
     </footer>
     <script src="https://kit.fontawesome.com/00699aa19f.js" crossorigin="anonymous"></script>
+    <script src="js/formulario.js"></script>
 </body>
 </html>

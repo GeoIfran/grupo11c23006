@@ -94,14 +94,18 @@
         <div class="container">
             <h2>Suscribete a nuestro boletin de noticias</h2>
            <!-- modify this form HTML and place wherever you want your form -->
+           <div id="inscripcionBoletin">
             <form id="my-form" action="https://formspree.io/f/moqzzwaz" method="POST">
-                 <label>Email:</label>
-                    <input required type="email" name="email" />
-                 <label>Nombre:</label>
-                    <input required type="text" name="message" />
+                 <label id="label_email">Email:</label>
+                    <input id="input_email" required type="email" name="email" />                    
+                 <label id="label_nombre">Nombre:</label>
+                    <input id="input_nombre" required type="text" name="message" />
                     <button id="my-form-button">Submit</button>
+                    <div id="alerta_email"></div>
+                    <div id="alerta_nombre"></div>
                  <p id="my-form-status"></p>
             </form>
+            </div>
             <h2>Contactanos por Whatsapp <div class="wsp1">
                 <a class="wsp" href="https://wa.me/5491169403011/?text=Hola%20Herbario%20les%20quiero%20consultar"
                     target="_blank">
@@ -124,7 +128,13 @@
         
 
     </footer>
-    <!--<script src="https://kit.fontawesome.com/00699aa19f.js" crossorigin="anonymous"></script>-->
+    <script src="https://kit.fontawesome.com/00699aa19f.js" crossorigin="anonymous"></script>
     <script src="js/formulario.js"></script>
+    <script src="js/validarCampos.js">
+        function validarFormulario(){
+            validarSoloTexto("inpt_nombre","alerta_nombre");
+            ValidarEmail("imput_email","alerta_email");
+        }
+    </script>
 </body>
 </html>

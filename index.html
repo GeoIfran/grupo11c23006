@@ -92,24 +92,23 @@
 
     <section id="caracteristicas">
         <div class="container">
-            <form action="" class="formulario" id="formulario" action="https://formspree.io/f/moqzzwaz" method="post">
-                <h1 class="formulario__titulo">Contáctenos</h1><br>
-                <input required type="text" class="formulario__input" id="nombre_completo" name="nombre_completo">
-                <label for="nombre_completo" class="formulario__label">Nombre y Apellido</label>
-                <input type="text" class="formulario__input" id="email" name="email">
-                <label for="email"  class="formulario__label">Correo</label>
-                <input type="number" class="formulario__input" id="telefono" name="telefono">
-                <label for="telefono" class="formulario__label">Teléfono</label>
-                <textarea id="mensaje" name="mensaje" type="" class="formulario__input"></textarea>
-                <label for="mensaje" class="formulario__label">Mensaje</label>
-                <button type="submit">Enviar</button>
-              </form>
-            <div class="wsp1">
+            <h2>Suscribete a nuestro boletin de noticias</h2>
+           <!-- modify this form HTML and place wherever you want your form -->
+            <form id="my-form" action="https://formspree.io/f/moqzzwaz" method="POST">
+                 <label>Email:</label>
+                    <input required type="email" name="email" />
+                 <label>Nombre:</label>
+                    <input required type="text" name="message" />
+                    <button id="my-form-button">Submit</button>
+                 <p id="my-form-status"></p>
+            </form>
+            <h2>Contactanos por Whatsapp <div class="wsp1">
                 <a class="wsp" href="https://wa.me/5491169403011/?text=Hola%20Herbario%20les%20quiero%20consultar"
                     target="_blank">
                     <img src="media/logo-whatsapp-4096.png" width="50" height="50">
                 </a>
-            </div>
+            </div></h2>
+            
         </div>
     </section>
 

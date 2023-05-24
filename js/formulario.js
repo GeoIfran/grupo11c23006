@@ -9,20 +9,33 @@ for (var i = 0; i < inputs.length; i++) {
   });
 }
 
-const $formContacto = document.querySelector(formulario)
-$formContacto.addEventListener('submint', submitManual())
-async function submitManual(event){
-  event.preventDefault()
-  const form = new FormData(this)
-  const respuesta =  await fetch(this.action, {
-    method:'post',
-    body: form,
-    headers:{
-      'Accept': 'applicatio/json'
-      }
-  }) 
-  if (Response.ok){
-    this.reset()
-    alert("gracias por contactarnos")
-  }
-}
+var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)

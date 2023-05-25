@@ -108,7 +108,7 @@ header a:hover{
     font-size: 1.75em;
 }
 
-#manos .container{
+#quienes_somos .container{
     text-align: center;
     padding: 200px 12px;
 }
@@ -165,16 +165,16 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../media/python.jpg");
+    ,url("../media/lavanda.jpg");
 
 }
 
-#caracteristicas .container{
+#contactenos .container{
     text-align: center;
     padding: 25em 1.2em;
 }
 
-#caracteristicas li{
+#contactenos li{
     margin: 1.6em 0px;
     font-weight: bold;
 }
@@ -212,6 +212,11 @@ header a:hover{
     grid-column: 3/5;
     grid-row: 2;
     
+}
+#my-form-button{
+    text-align: center;
+    grid-column: 1/5;
+    grid-row: 3;
 }
 #final{
     display: flex;
@@ -273,12 +278,12 @@ nav a {font-size: 1.5em;}
         font-size: 5em;
     }
 
-    #manos .container{
+    #quienes_somos .container{
         display: flex;
         justify-content: space-evenly;
     }
 
-    #manos .texto{
+    #quienes_somos .texto{
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -288,11 +293,11 @@ nav a {font-size: 1.5em;}
         justify-content: center;
     }
 
-    #manos h2{
+    #quienes_somos h2{
         margin-top: 0px;
     }
 
-    #manos .img-container{
+    #quienes_somos .img-container{
         background-image: url("../media/manos.jpg");
         background-size: cover;
         background-position: center center;
@@ -354,7 +359,7 @@ nav a {font-size: 1.5em;}
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("../media/python-cropped.jpg");
+        ,url("../media/lavanda_croped.jpg");
 
     }
 

@@ -1,0 +1,17 @@
+codigo
+titulo_planta
+nombres_vulgares
+nombre_cientifico
+identificacion
+forma_biologica
+floracion
+imagen_nota
+descripcion_imagen_nota
+requerimientos_ambientales
+distribucion_y_zonas_de_cultivo
+implantacion_y_persistencia
+comentarios
+videos
+imagen188x600
+imagen660x1280
+descripcion_home

@@ -14,8 +14,7 @@ conn = get_db_connection()
 cursor = conn.cursor()
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS plantas (
-        codigo INTEGER PRIMARY KEY,
-        titulo_planta TEXT NOT NULL,
+        codigo TEXT PRIMARY KEY,
         nombres_vulgares TEXT NOT NULL,
         nombre_cientifico TEXT NOT NULL,
         identificacion TEXT NOT NULL,
@@ -188,4 +187,4 @@ mi_carrito.agregar(3, 1, x)  # Agregar 1 unidad del producto con código 3 al ca
 mi_carrito.quitar(1, 1, x)   # Quitar 1 unidad del producto con código 1 al carrito
 mi_carrito.agregar(2, 1, x)  # Agregar 1 unidad del producto con código 2 al carrito
 
-mi_carrito.mostrar()'''
+mi_carrito.mostrar()''' 

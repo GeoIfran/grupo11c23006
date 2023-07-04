@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="media/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css"> 
+    <link rel="stylesheet" href="css/index.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@next/font/bootstrap-icons.css">
+    
+    <title>Herbario</title>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo"><img src="media/logo_ch.png" alt="Logo - imagen de una hoja verde con su lado mas fino hacia arriba"> Herbario</p>
+            <nav>
+                <a href="#plantafondo"><i class="fa-solid fa-house" ></i>Home</a>
+                <a href="#quienes_somos"><i class="fa-solid fa-user" ></i>¿Quienes Somos?</a>
+                <a href="#nuestras-plantas"><i class="fa-solid fa-seedling"></i>Nuestras Plantas</a>
+                <a href="#contactenos"><i class="fa-solid fa-house-laptop" ></i>Contactenos</a>
+                
+            </nav>
+        </div>
+    </header>
+
+    <section id="plantafondo">
+        
+        <div class="slider">
+            
+            <ul>
+                <li><img src="media/carrusel.jpg" alt=""></li>
+                <li><img src="media/carrusel2.jpg" alt=""></li>
+                <li><img src="media/carrusel3.jpg" alt=""></li>
+                <li><img src="media/carrusel4.jpg" alt=""></li>
+            </ul>
+        </div>
+        <h1>Aprendé sobre el mundo de las plantas <br>con los Mejores</h1>
+        
+    </section>
+
+    <section id="quienes_somos">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Somos <span class="color-acento">Herbario</span></h2>
+                <p> Brindamos información sobre diferentes tipos de plantas y su cuidado, dirigido a todas las edades y niveles de conocimiento.
+
+                    En esta página web, los usuarios pueden encontrar información detallada sobre cada planta, incluyendo su hábitat natural, requerimientos de luz, agua y suelo, así como también sobre plagas y enfermedades comunes que puedan afectarlas. </p>
+                    
+                    <p> Brindamos  fotografías, para ayudar a los usuarios a identificar las diferentes plantas y comprender mejor su apariencia y características generales.</p>
+                    
+                    <p>  Una web informativa para toda la familia donde podran explorar el mundo de las plantas,  es una excelente herramienta para aprender a cuidarlas adecuadamente y fomentar una mayor conexión con el mundo natural.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestras-plantas">
+        <div class="container">
+            <h2>Nuestras Plantas</h2>
+            <div class="plantas">
+                <div class="carta">
+                    <h3>Girasol<br></h3>
+                    <p>Planta anual de hasta 2,5 m, generalmente no ramosa. Tallo híspido. Hojas alternas, grandes, ovadas y más o menos cordadas, con el margen aserrado. Inflorescencia en capítulo terminal de gran tamaño.</p>
+                    <form action="girasol.html">
+                        <button>+ Info</button>
+                    </form>
+                </div>
+                <div class="carta">
+                    <h3>Albahaca <br></h3>
+                    <p>Planta herbácea, anual, hasta de 50 cm de altura, muy aromática. Tallo anguloso, muy ramificado. Hojas opuestas, pecioladas, aovadas, puntiagudas, anchas, de un color verde intenso, con glándulas de aceite.</p>
+                    <form action="albahaca.html">
+                        <button>+ Info</button>
+                    </form>
+                </div>
+                <div class="carta">
+                    <h3>Lavanda</h3>
+                    <p>Es un pequeño arbusto de tallos leñosos, sus hojas son alargadas, finas y grisáceas y sus flores azuladas en forma de espiga. Es perenne, o sea que no pierde sus hojas. También es conocida como “espliego”.</p>
+                    <form action="lavanda.html">
+                        <button>+ Info</button>
+                    </form>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="contactenos">
+        <div class="container">
+            <h2>Suscribete a nuestro boletin de noticias</h2>
+           <!-- modify this form HTML and place wherever you want your form -->
+           <div id="inscripcionBoletin">
+            <form id="my-form" action="https://formspree.io/f/moqzzwaz" method="POST">
+                 <label id="label_email">Email:</label>
+                    <input id="input_email" required type="email" name="email" />                    
+                 <label id="label_nombre">Nombre:</label>
+                    <input id="input_nombre" required type="text" name="message" />
+                    
+                    <div id="alerta_email"></div>
+                    <div id="alerta_nombre"></div>
+                <br><br><button id="my-form-button">Submit</button>
+                 <p id="my-form-status"></p>
+            </form>
+            </div>
+            <h2>Contactanos por Whatsapp <div class="wsp1">
+                <a class="wsp" href="https://wa.me/5491169403011/?text=Hola%20Herbario%20les%20quiero%20consultar"
+                    target="_blank">
+                    <img src="media/logo-whatsapp-4096.png" width="50" height="50">
+                </a>
+            </div></h2>
+            
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>Listo para aprender?</h2>
+        
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Herbario 2023</p>
+        </div>
+        
+
+    </footer>
+    <script src="https://kit.fontawesome.com/00699aa19f.js" crossorigin="anonymous"></script>
+    <script src="js/formulario.js"></script>
+    <script src="js/validarCampos.js">
+        function validarFormulario(){
+            validarSoloTexto("inpt_nombre","alerta_nombre");
+            ValidarEmail("imput_email","alerta_email");
+        }
+    </script>
+</body>
+</html>
